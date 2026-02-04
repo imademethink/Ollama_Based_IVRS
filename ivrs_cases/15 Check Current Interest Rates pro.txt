@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "What are the current interest rates?",
+  "Check interest rates",
+  "Tell me the mortgage rates",
+  "What is the interest on savings accounts?",
+  "Current loan rates",
+  "I want to know the fixed deposit rate",
+  "Credit card interest rate",
+  "What is the APR for personal loans?",
+  "Rates for car loans",
+  "How much interest do you pay?",
+  "Today's interest rates",
+  "Certificate of deposit rates",
+  "Home loan interest",
+  "Check savings rate",
+  "Interest rate enquiry",
+  "What is the current APY?",
+  "Rates for new accounts",
+  "Best interest rates available",
+  "Interest on checking account",
+  "Get rate information"
+]
+
+```
+
+1. What are the current interest rates?
+2. Check interest rates
+3. Tell me the mortgage rates
+4. What is the interest on savings accounts?
+5. Current loan rates
+6. I want to know the fixed deposit rate
+7. Credit card interest rate
+8. What is the APR for personal loans?
+9. Rates for car loans
+10. How much interest do you pay?
+11. Today's interest rates
+12. Certificate of deposit rates
+13. Home loan interest
+14. Check savings rate
+15. Interest rate enquiry
+16. What is the current APY?
+17. Rates for new accounts
+18. Best interest rates available
+19. Interest on checking account
+20. Get rate information
+
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Check Current Interest Rates
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

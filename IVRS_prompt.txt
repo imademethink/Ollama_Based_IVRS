@@ -1,0 +1,804 @@
+
+
+
+
+
+Gemini full discussion link 
+https://gemini.google.com/share/9653f6bde3fa
+
+
+
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Expectation : With the help of AI models, need to design an IVRS system. Provide 10 most popular feature in to understand
+
+
+=================================================================
+
+### **IVRS Design Strategy for Modern Banking**
+
+**Role:** Senior IVRS Solutions Architect (10+ Years Experience)
+**Context:** Designing a Next-Gen AI-Powered IVR for a Bank (USA/EU Standards)
+
+Based on extensive research into the top IVR platforms dominating the USA and EU markets in 2024-2025 (including **Genesys Cloud CX, NICE CXone, Five9, Talkdesk, Avaya, Cisco Webex, Nuance, Twilio, Amazon Connect, and Odigo**), I have synthesized the essential design requirements.
+
+The market has shifted from "Menu-Driven" (Press 1 for X) to **"Intent-Driven"** (Conversational AI). Below are the 10 most critical features to include in your design, followed by a high-level system architecture.
+
+---
+
+### **Top 10 Must-Have Features (USA & EU Banking Standards)**
+
+These features are standard in top-tier systems to ensure high containment rates (solving the issue without an agent) and customer satisfaction.
+
+#### **1. Conversational AI & NLU (Natural Language Understanding)**
+
+* **The Feature:** Instead of "Press 1 for Savings," the system asks, *"How can I help you today?"*
+* **Why it's vital:** It removes rigid menu trees. Customers can speak naturally (e.g., *"I lost my card"* or *"Why was I charged $50?"*). Top engines like Google CCAI or Nuance are used here.
+* **Design Note:** Must support "Barge-in" (allowing customers to interrupt the bot).
+
+#### **2. Voice Biometrics (Passive Authentication)**
+
+* **The Feature:** Authenticates the customer by their voiceprint as they speak, eliminating the need for complex PINs or security questions (e.g., *"My voice is my password"*).
+* **Why it's vital:** Reduces login time by 20-30 seconds and significantly improves security against fraud.
+* **EU Context:** Critical for meeting PSD2 (Strong Customer Authentication) requirements in Europe.
+
+#### **3. Visual IVR & Multimodal Handoff**
+
+* **The Feature:** If a customer asks for a statement or a complex transfer, the IVR sends a secure link to their smartphone screen while keeping the voice line open.
+* **Why it's vital:** Some data is better seen than heard. It bridges the gap between digital and voice, popular in products like **Voiso** and **Radisys**.
+
+#### **4. Predictive Intent (The "Psychic" Feature)**
+
+* **The Feature:** The system analyzes the user’s recent activity *before* greeting them.
+* **Example:** If a user’s credit card was declined 5 minutes ago, the IVR greets them with: *"I see a recent declined transaction. Are you calling about that?"*
+* **Why it's vital:** Reduces friction and makes the bank feel personal and aware.
+
+#### **5. Seamless CRM Integration (Context Preservation)**
+
+* **The Feature:** Deep integration with Salesforce, Microsoft Dynamics, or Core Banking Systems.
+* **Why it's vital:** If a call is transferred to a human, the agent sees a "screen pop" with the customer's verified status and the full transcript of what they already told the bot. **Never ask the customer to repeat themselves.**
+
+#### **6. Sentiment Analysis & Emotion Detection**
+
+* **The Feature:** The AI monitors the customer's tone (anger, frustration, urgency).
+* **Why it's vital:** If a customer sounds distressed, the system bypasses standard containment logic and routes them immediately to a "Retention Specialist" or "empathetic" senior agent.
+
+#### **7. Secure Payment Processing (PCI-DSS Agentless Pay)**
+
+* **The Feature:** When a customer needs to pay a bill or reset a PIN, the system pauses call recording and allows secure DTMF or voice entry of credit card numbers.
+* **Why it's vital:** Ensures compliance with PCI-DSS (USA) and GDPR (EU) by ensuring agents never see or hear sensitive data.
+
+#### **8. Outbound Proactive Engagement**
+
+* **The Feature:** The IVR doesn't just wait for calls; it initiates them (or sends SMS) for fraud alerts, low balance warnings, or loan application updates.
+* **Why it's vital:** Reduces inbound call volume by solving problems before the customer feels the need to call.
+
+#### **9. Multi-Language & Accent Localization**
+
+* **The Feature:** AI models trained on specific regional accents (e.g., Southern US, Scottish, various European dialects) and instant language switching.
+* **Why it's vital:** Essential for EU markets (serving customers in French, German, Spanish, etc.) and diverse US demographics.
+
+#### **10. Real-Time Flow Optimization (A/B Testing)**
+
+* **The Feature:** The system analyzes where people "hang up" (drop-off points).
+* **Why it's vital:** Unlike old IVRs that sat static for years, modern AI IVRs self-diagnose. If 40% of people hang up at the "Loan" menu, the system alerts you to redesign that specific prompt.
+
+---
+
+### **Proposed System Design: The "AI-First" Banking IVR**
+
+Based on the features above, here is the architectural blueprint for your design.
+
+#### **Phase 1: The Gatekeeper (Intelligence Layer)**
+
+* **Input:** User Voice Stream (SIP/WebRTC).
+* **Module:** **Voice Gateway** equipped with **Voice Biometrics**.
+* **Action:** 1. Identify Caller ID (ANI).
+2. Check "Recent Event Cache" (Did they just fail a login? Is a bill due?).
+3. Authenticate via Voice Biometrics (Background process).
+4. **Output:** Verified Customer Profile + Predicted Intent.
+
+#### **Phase 2: The Conversation (Orchestration Layer)**
+
+* **Core Engine:** **Conversational AI Bot** (e.g., Google Dialogflow CX / AWS Lex).
+* **Logic:**
+* **Intent Recognition:** Maps speech to banking actions (Check Balance, Transfer Funds, Report Fraud).
+* **Entity Extraction:** Pulls dates, amounts, and account names from speech.
+* **Sentiment Guardrail:** If Sentiment Score < 30/100, trigger `Escalation_Routine`.
+
+
+
+#### **Phase 3: The Fulfillment (Backend Layer)**
+
+* **Integration:** API Gateway connecting to the Core Banking System (CBS).
+* **Security:** APIs must be read/write restricted.
+* *Read:* Balance, Transaction History.
+* *Write:* Block Card, Schedule Transfer (Requires 2FA confirmation via SMS/App push).
+
+
+
+#### **Phase 4: The Handoff (Agent Layer)**
+
+* **Condition:** If AI cannot solve the query OR Customer requests agent.
+* **Smart Routing:** Route not just to "Next Available" but to "Best Match" (e.g., route a high-net-worth client to a Senior Advisor).
+* **Data Transfer:** Pass the "Context Blob" (Intent: Fraud, Sentiment: Anxious, Auth: Verified) to the Agent Desktop.
+
+
+
+
+
+
+=================================================================
+=================================================================
+
+
+
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Expectation : With the help of AI models, need to design an IVRS system. Provide 20 most popular services in simple words
+
+no other elaborative text
+
+=================================================================
+
+### **20 Most Popular Banking IVR Services**
+
+1. **Check Account Balance**
+2. **Review Recent Transactions**
+3. **Transfer Money** (Internal & External)
+4. **Pay Bills** (Utilities, Credit Cards)
+5. **Report Lost or Stolen Card**
+6. **Activate New Card / Reset PIN**
+7. **Request Account Statement** (Email/Post)
+8. **Check Loan Status & Due Dates**
+9. **Stop Cheque Payment**
+10. **Order New Cheque Book**
+11. **Update Contact Information**
+12. **Check Credit Card Limit & Rewards**
+13. **Dispute a Transaction**
+14. **Find Nearest Branch or ATM**
+15. **Check Current Interest Rates**
+16. **Get Currency Exchange Rates**
+17. **Open Fixed or Recurring Deposit**
+18. **Request Tax Certificates**
+19. **Schedule Branch Appointment**
+20. **Speak to Customer Support Agent**
+
+
+
+
+=================================================================
+=================================================================
+
+
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Provide the most popular greetings to start the conversation with a customer
+
+no other elaborative text
+=================================================================
+
+Welcome to [Bank Name]. How can we help you today?
+
+
+=================================================================
+=================================================================
+
+
+
+
+
+
+
+
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Provide 20 most popular 2 to 3 word during the conversation with a customer to show the system is with the customer. For example, Please wait, Please be patient, I am transferring call to a Human agent
+
+no other elaborative text
+
+=================================================================
+
+
+[
+  "Please wait",
+  "One moment",
+  "Hold on",
+  "Processing request",
+  "Checking details",
+  "Please hold",
+  "Connecting you",
+  "Still checking",
+  "One second",
+  "Almost there",
+  "Just a moment",
+  "Transferring now",
+  "Accessing account",
+  "Stay on line",
+  "Verifying now",
+  "Loading data"
+]
+
+
+=================================================================
+=================================================================
+
+
+
+
+
+
+
+
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : If the customer is talking in rude, inappropriate, unconventional manner,
+provide 20 most popular 2 to 3 word reply as a professional Agent to politely mention this is inappropriate and the call may end, please call again.
+
+no other elaborative text
+
+=================================================================
+[
+  "Ending call now",
+  "Please call back",
+  "Disconnecting now",
+  "Respectful tone please",
+  "Terminating call",
+  "Session ending",
+  "Inappropriate language",
+  "Goodbye for now",
+  "Please try again"
+]
+
+
+=================================================================
+=================================================================
+
+
+
+
+
+
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : What are the different tones customer talk in general? Give max 4 tones and probability in percentage
+
+no other elaborative text
+=================================================================
+
+
+[
+  {
+    "Tone": "Neutral / Professional",
+  },
+  {
+    "Tone": "Frustrated / Aggressive",
+  },
+  {
+    "Tone": "Anxious / Urgent",
+  },
+  {
+    "Tone": "Confused / Uncertain",
+  }
+]
+
+
+
+[
+  {
+    "Tone": "Neutral / Professional",
+    "Probability": "65%",
+    "Description": "Routine inquiries like balance checks or address changes."
+  },
+  {
+    "Tone": "Frustrated / Aggressive",
+    "Probability": "15%",
+    "Description": "Customers annoyed by fees, technical issues, or long wait times."
+  },
+  {
+    "Tone": "Anxious / Urgent",
+    "Probability": "12%",
+    "Description": " situations involving fraud, lost cards, or declined transactions."
+  },
+  {
+    "Tone": "Confused / Uncertain",
+    "Probability": "8%",
+    "Description": "Customers unsure of which menu option to select or how to use the system."
+  }
+]
+
+=================================================================
+=================================================================
+
+
+
+
+
+=================================================================
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Provide most suitable means to validate the customer who called is a true human, true existing customer or new customer. Validation to be done in 2 steps.
+
+no other elaborative text
+
+
+=================================================================
+OTP, TPIN, Voice Passphrase, 2FA, 
+Name, Date of birth, Name of Mother, Answer of secret question
+Last 2 transactions (Debit or Credit)
+
+=================================================================
+=================================================================
+
+
+
+=================================================================
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Which role should NOT be played by the AI based system other than Customer Support Agent. Give me 8 roles.
+
+no other elaborative text
+
+=================================================================
+Legal Counsel / Attorney
+Fiduciary Financial Planner
+Crisis Counselor
+Forensic Auditor
+Ombudsman / Final Arbitrator
+Corporate Relationship Manager
+Press / Media Spokesperson
+Chief Compliance Officer
+
+
+=================================================================
+=================================================================
+
+
+
+
+
+
+=================================================================
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Provide 20 different guard rails for this IVRS system. Provide in bullet points format.
+
+no other elaborative text
+=================================================================
+
+No "Financial Advice" Constraint: Strictly prohibit the AI from providing investment recommendations, stock tips, or tax advice; force a redirect to a licensed human advisor for such queries.
+
+Competitor Mention Blocking: recognizing and neutralizing queries about competitors, ensuring the system does not promote or discuss rival banks' products.
+
+Sentiment-Based Escalation: Automatically transfer the call to a human agent if the customer's sentiment score drops below a specific threshold (detecting anger or distress).
+
+Trusted or Allowed Topic list: Restrict the AI's knowledge base strictly to banking domain topics; reject requests to discuss politics, religion, or general trivia.
+
+Confidence Thresholding: If the AI’s confidence in an answer is below a set percentage (e.g., 85%), it must fallback to a clarification question or human transfer rather than guessing.
+
+Hallucination Grounding Checks: Use Retrieval-Augmented Generation (RAG) with a strict "citation" requirement; if the AI cannot find the answer in its approved document store, it must say "I don't know."
+
+Toxic Language Filtering: Filter both input and output for profanity, hate speech, or abusive language, issuing a warning or terminating the call if necessary.
+
+Transaction Value Limits: Hard-code maximum limits for AI-initiated transactions (e.g., transfers under $500 only); anything above requires human approval or multi-factor authentication.
+
+Regulatory Disclaimers: Mandate that the system self-identifies as an artificial intelligence at the start of the interaction and whenever asked, complying with transparency laws.
+
+Emergency & Crisis Protocol: If keywords related to self-harm, physical threats, or extreme distress are detected, immediately route to a specialized human team or provide emergency contact numbers.
+
+Bias Mitigation Filters: specific checks to ensure responses regarding loans or credit do not vary based on inferred demographics (race, gender, accent) of the caller.
+
+Rate Limiting & Anti-Spam: Limit the number of queries or transactions a single caller can perform in a short window to prevent Denial of Service (DoS) or brute-force attacks.
+
+Output Conciseness Enforcer: Limit the length of AI responses to prevent rambling; force answers to be brief (e.g., under 30 words) to suit the auditory nature of IVR.
+
+Sensitive Action Confirmation: Require an explicit "Yes/No" verbal confirmation from the user before executing any state-changing action (e.g., "Are you sure you want to block this card?").
+
+Audit Trail Immutability: rigorous logging of every AI decision and user input in a "Write Once, Read Many" (WORM) format for compliance auditing and forensic analysis.
+
+
+=================================================================
+=================================================================
+
+
+
+
+=================================================================
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Provide 20 different set of people who can interact with this system. For example based on popular locality, popular culture, popular ethinicity, male and female, typical age group.
+
+no other elaborative text
+
+=================================================================
+
+[
+  {
+    "id": 1,
+    "demographic_profile": {
+      "persona": "Urban Millennial",
+      "location": "NYC, USA",
+      "ethnicity": "Caucasian",
+      "gender": "Male",
+      "age_group": "28-35"
+    },
+    "typical_need_context": "Checking credit card rewards or crypto integration.",
+    "interaction_style": "Fast-paced, uses slang, impatient with long menus."
+  },
+  {
+    "id": 2,
+    "demographic_profile": {
+      "persona": "Retired Pensioner",
+      "location": "Florida, USA",
+      "ethnicity": "Caucasian",
+      "gender": "Female",
+      "age_group": "70+"
+    },
+    "typical_need_context": "Verifying social security deposit or CD maturity.",
+    "interaction_style": "Slow-paced, prefers human agent, polite but easily confused."
+  },
+  {
+    "id": 3,
+    "demographic_profile": {
+      "persona": "Hispanic Immigrant",
+      "location": "Texas, USA",
+      "ethnicity": "Hispanic/Latino",
+      "gender": "Male",
+      "age_group": "40-50"
+    },
+    "typical_need_context": "Remittance/Wire transfer to family abroad.",
+    "interaction_style": "Prefers Spanish language option, checks rates carefully."
+  },
+  {
+    "id": 4,
+    "demographic_profile": {
+      "persona": "Tech Professional",
+      "location": "London, UK",
+      "ethnicity": "South Asian",
+      "gender": "Female",
+      "age_group": "30-40"
+    },
+    "typical_need_context": "Managing high-yield savings or investment portfolio.",
+    "interaction_style": "Precise, efficient, expects advanced self-service features."
+  },
+  {
+    "id": 5,
+    "demographic_profile": {
+      "persona": "Small Business Owner",
+      "location": "Berlin, Germany",
+      "ethnicity": "German",
+      "gender": "Male",
+      "age_group": "45-55"
+    },
+    "typical_need_context": "Payroll processing or business loan inquiry.",
+    "interaction_style": "Formal, direct, seeks specific functionality quickly."
+  },
+  {
+    "id": 6,
+    "demographic_profile": {
+      "persona": "Rural Resident",
+      "location": "Midwest, USA",
+      "ethnicity": "Caucasian",
+      "gender": "Male",
+      "age_group": "55-65"
+    },
+    "typical_need_context": "Checking cleared checks or farm loan status.",
+    "interaction_style": "Conversational, patient, may have background noise (outdoors)."
+  },
+  {
+    "id": 7,
+    "demographic_profile": {
+      "persona": "Gen Z Student",
+      "location": "California, USA",
+      "ethnicity": "Asian-American",
+      "gender": "Female",
+      "age_group": "18-24"
+    },
+    "typical_need_context": "Unlocking debit card or checking overdraft fees.",
+    "interaction_style": "Digital-first mindset, frustrated by voice prompts, prefers chat."
+  },
+  {
+    "id": 8,
+    "demographic_profile": {
+      "persona": "Expat Executive",
+      "location": "Paris, France",
+      "ethnicity": "American",
+      "gender": "Male",
+      "age_group": "35-45"
+    },
+    "typical_need_context": "Currency exchange rates or international wire issues.",
+    "interaction_style": "Demanding, high-value customer, expects 'VIP' routing."
+  },
+  {
+    "id": 9,
+    "demographic_profile": {
+      "persona": "Gig Economy Worker",
+      "location": "Chicago, USA",
+      "ethnicity": "African-American",
+      "gender": "Female",
+      "age_group": "25-35"
+    },
+    "typical_need_context": "Instant deposit verification or disputing a fee.",
+    "interaction_style": "Urgent, frequent caller, multitasking while on the phone."
+  },
+  {
+    "id": 10,
+    "demographic_profile": {
+      "persona": "Stay-at-Home Parent",
+      "location": "Suburban UK",
+      "ethnicity": "Caucasian",
+      "gender": "Female",
+      "age_group": "30-40"
+    },
+    "typical_need_context": "Mortgage payment or setting up child’s account.",
+    "interaction_style": "Distracted (kids in background), multi-step queries."
+  },
+  {
+    "id": 11,
+    "demographic_profile": {
+      "persona": "Blue Collar Worker",
+      "location": "Rust Belt, USA",
+      "ethnicity": "Caucasian",
+      "gender": "Male",
+      "age_group": "45-60"
+    },
+    "typical_need_context": "Loan payoff quote or checking balance before payday.",
+    "interaction_style": "Direct, no-nonsense, frustrated by 'tech' jargon."
+  },
+  {
+    "id": 12,
+    "demographic_profile": {
+      "persona": "Tourist / Traveler",
+      "location": "Rome, Italy",
+      "ethnicity": "Japanese",
+      "gender": "Female",
+      "age_group": "25-35"
+    },
+    "typical_need_context": "Lost card reporting or ATM withdrawal limit issues.",
+    "interaction_style": "Anxious, language barrier potential, needs immediate help."
+  },
+  {
+    "id": 13,
+    "demographic_profile": {
+      "persona": "Tech-Savvy Developer",
+      "location": "Seattle, USA",
+      "ethnicity": "Mixed Race",
+      "gender": "Non-Binary",
+      "age_group": "25-30"
+    },
+    "typical_need_context": "API access tokens or third-party app integration.",
+    "interaction_style": "Uses technical terms, expects system to be 'smart' and concise."
+  },
+  {
+    "id": 14,
+    "demographic_profile": {
+      "persona": "Elderly Widow",
+      "location": "Rural France",
+      "ethnicity": "French",
+      "gender": "Female",
+      "age_group": "75+"
+    },
+    "typical_need_context": "Accessing husband’s account or probate questions.",
+    "interaction_style": "Emotional, slow, struggles with authentication steps."
+  },
+  {
+    "id": 15,
+    "demographic_profile": {
+      "persona": "Military Veteran",
+      "location": "Virginia, USA",
+      "ethnicity": "African-American",
+      "gender": "Male",
+      "age_group": "40-50"
+    },
+    "typical_need_context": "VA loan questions or pension deposit check.",
+    "interaction_style": "Respectful, disciplined, uses formal 'Sir/Ma'am' language."
+  },
+  {
+    "id": 16,
+    "demographic_profile": {
+      "persona": "New Immigrant",
+      "location": "Toronto/NY border",
+      "ethnicity": "Middle Eastern",
+      "gender": "Male",
+      "age_group": "30-40"
+    },
+    "typical_need_context": "Opening first bank account or building credit score.",
+    "interaction_style": "Hesitant, asks for clarification often, polite."
+  },
+  {
+    "id": 17,
+    "demographic_profile": {
+      "persona": "Luxury Real Estate Agent",
+      "location": "Los Angeles, USA",
+      "ethnicity": "Caucasian",
+      "gender": "Female",
+      "age_group": "40-50"
+    },
+    "typical_need_context": "High-value wire transfer confirmation.",
+    "interaction_style": "Assertive, in a rush, confident tone."
+  },
+  {
+    "id": 18,
+    "demographic_profile": {
+      "persona": "Factory Union Worker",
+      "location": "Detroit, USA",
+      "ethnicity": "African-American",
+      "gender": "Male",
+      "age_group": "50-60"
+    },
+    "typical_need_context": "Pension inquiries or union benefit deposits.",
+    "interaction_style": "Loud environment, speaks clearly and loudly."
+  },
+  {
+    "id": 19,
+    "demographic_profile": {
+      "persona": "Digital Nomad",
+      "location": "Lisbon, Portugal",
+      "ethnicity": "British",
+      "gender": "Male",
+      "age_group": "28-35"
+    },
+    "typical_need_context": "Unblocking card for foreign transaction.",
+    "interaction_style": "Relaxed tone but urgent need, comfortable with tech."
+  },
+  {
+    "id": 20,
+    "demographic_profile": {
+      "persona": "Visually Impaired User",
+      "location": "Anywhere",
+      "ethnicity": "Any",
+      "gender": "Any",
+      "age_group": "50+"
+    },
+    "typical_need_context": "Balance check and transaction review.",
+    "interaction_style": "Relies 100% on voice feedback, sensitive to menu timing/speed."
+  }
+]
+
+
+1,"Urban Millennial (NYC, USA",Caucasian,Male
+2,"Retired Pensioner (Florida, USA",Caucasian,Female
+3,"Hispanic Immigrant (Texas, USA",Hispanic/Latino,Male
+4,"Tech Professional (London, UK",South Asian,Female
+5,"Small Business Owner (Berlin, Germany",German,Male
+6,"Rural Resident (Midwest, USA",Caucasian,Male
+7,"Gen Z Student (California, USA",Asian-American,Female
+8,"Expat Executive (Paris, France",American,Male
+9,"Gig Economy Worker (Chicago, USA",African-American,Female
+10,Stay-at-Home Parent (Suburban UK,Caucasian,Female
+11,"Blue Collar Worker (Rust Belt, USA",Caucasian,Male
+12,"Tourist / Traveler (Rome, Italy",Japanese,Female
+13,"Tech-Savvy Developer (Seattle, USA",Mixed Race,Non-Binary
+14,Elderly Widow (Rural France,French,Female
+15,"Military Veteran (Virginia, USA",African-American,Male
+16,New Immigrant (Toronto/NY border,Middle Eastern,Male
+17,"Luxury Real Estate Agent (Los Angeles, USA",Caucasian,Female
+18,"Factory Union Worker (Detroit, USA",African-American,Male
+19,"Digital Nomad (Lisbon, Portugal",British,Male
+20,Visually Impaired User (Anywhere,Any,Any
+
+=================================================================
+=================================================================
+
+
+
+
+
+
+
+=================================================================
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input: Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system. 
+Current Expectation : Provide 20 different background noise during phone calls often includes
+
+no other elaborative text
+
+
+=================================================================
+
+
+sound of traffic noise (cars, buses)  --
+	https://www.youtube.com/shorts/K-3qSmt8Qgg
+sound of Sirens --
+	https://www.youtube.com/shorts/twu6XHspOnk
+sound of Wind rushing (when walking outside)  --
+	https://www.youtube.com/shorts/pCUb6QGpWjY
+sound of People chattering or talking nearby ---
+	https://www.youtube.com/shorts/yuDWKabKoks
+sound of Construction machinery (drilling, hammering)  --
+	https://www.youtube.com/shorts/WO5859x0Gms
+sound of Dog barking  --
+	https://www.youtube.com/shorts/yCo_zmM7YIc
+sound of TV playing in the background --
+	https://www.youtube.com/shorts/bpQIP6HRzKA
+sound of Fans (ceiling or computer) ---
+	https://www.youtube.com/shorts/i91UbFJzGFA
+sound of Air conditioning units  --
+	https://www.youtube.com/shorts/PP2ATGapoSc
+sound of Dishes clattering (kitchen noise)
+	https://www.youtube.com/shorts/m8f9uKl7VGE
+sound of Babies crying --
+	https://www.youtube.com/shorts/plfhrAcbBIU
+sound of Subway or train noises
+	https://www.youtube.com/shorts/Wlr0YNe5Pns --
+sound of Coffee shop atmosphere (espresso machine, cups) --
+	https://www.youtube.com/shorts/nVub7WK2MNU
+sound of Water running (faucet) --
+	https://www.youtube.com/shorts/BOW7Glt_QOU
+sound of Rubbing or tapping on the phone case --
+	https://www.youtube.com/shorts/TjnSDur7S4o
+sound of Doorbell or phone ringing --
+	https://www.youtube.com/shorts/gL4DEBPkr-k
+sound of Heavy rain or storm sounds--
+	https://www.youtube.com/shorts/4QBB0phhhaE
+sound of Bird chirping--
+	https://www.youtube.com/shorts/m8f9uKl7VGE
+
+
+yt-dlp --extract-audio --audio-format mp3 --output "sound of traffic noise cars.mp3" "https://www.youtube.com/shorts/K-3qSmt8Qgg"
+
+yt-dlp "https://www.youtube.com/shorts/LOLkhN9C9mg"
+
+clone voice
+yt-dlp --extract-audio --audio-format mp3 --output "a00.mp3" "https://www.youtube.com/shorts/-DsL9IfHl2M"
+yt-dlp --extract-audio --audio-format mp3 --output "a01.mp3" "https://www.youtube.com/shorts/oNLhYperuYo"
+yt-dlp --extract-audio --audio-format mp3 --output "a02.mp3" "https://www.youtube.com/shorts/bDumtt14VP0"
+yt-dlp --extract-audio --audio-format mp3 --output "a03.mp3" "https://www.youtube.com/shorts/H_yew4uuOCY"
+yt-dlp --extract-audio --audio-format mp3 --output "a04.mp3" "https://www.youtube.com/shorts/eoVKJJ1TcUw"
+yt-dlp --extract-audio --audio-format mp3 --output "a05.mp3" "https://www.youtube.com/shorts/CcprJwUcJSY"
+yt-dlp --extract-audio --audio-format mp3 --output "a06.mp3" "https://www.youtube.com/shorts/bfNO0B5S5j0"
+yt-dlp --extract-audio --audio-format mp3 --output "a07.mp3" "https://www.youtube.com/watch?v=D9cPAuZIigs"
+yt-dlp --extract-audio --audio-format mp3 --output "a08.mp3" "https://www.youtube.com/watch?v=xCLBKP1kJjI"
+yt-dlp --extract-audio --audio-format mp3 --output "a09.mp3" "https://www.youtube.com/watch?v=IHlXgCaJvR4"
+
+
+
+=================================================================
+
+
+ollama ai models for sentiment analysis
+Voice-cloning python GitHub
+https://github.com/myshell-ai/OpenVoice
+https://github.com/VattamBhavaniPrasad5i5/Voice-Cloning-Project
+https://rohitraj-iit.medium.com/how-to-do-voice-cloning-in-python-dfaa610cb873
+https://pypi.org/project/Voice-Cloning/
+https://github.com/dreji18?tab=repositories
+

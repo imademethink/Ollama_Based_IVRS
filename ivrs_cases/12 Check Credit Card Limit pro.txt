@@ -1,0 +1,66 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "What is my credit limit?",
+  "Check my available credit",
+  "How many reward points do I have?",
+  "What is my cash back balance?",
+  "Check credit card limit",
+  "How much can I spend on my card?",
+  "Do I have any rewards available?",
+  "Show me my credit card points",
+  "What is my total credit line?",
+  "Check rewards balance",
+  "How much credit do I have left?",
+  "I want to check my points",
+  "View my credit limit and rewards",
+  "How many miles have I earned?",
+  "What is my available spending limit?",
+  "Check my loyalty points",
+  "Available credit enquiry",
+  "What are my card benefits?",
+  "How much cashback have I earned?",
+  "Check limit"
+]
+
+```
+
+
+What is my credit limit?
+ Check my available credit.
+ How many reward points do I have?
+ What is my cash back balance?
+ Check credit card limit.
+ How much can I spend on my card?
+ Do I have any rewards available?
+ Show me my credit card points.
+ What is my total credit line?
+ Check rewards balance.
+ How much credit do I have left?
+ I want to check my points.
+ View my credit limit and rewards.
+ How many miles have I earned?
+ What is my available spending limit?
+ Check my loyalty points.
+ Available credit enquiry.
+ What are my card benefits?
+ How much cashback have I earned?
+ Check limit.
+ 
+ 
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Check Credit Card Limit & Rewards
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	
+

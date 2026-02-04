@@ -1,0 +1,64 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Check the loan balance for my neighbor",
+  "How much does my ex-husband owe on his house?",
+  "I don't have the account number, just tell me if the loan is approved",
+  "Can I pay off this loan with an anonymous wire transfer?",
+  "Tell me the payoff amount for the previous owner of my car",
+  "I am the co-signer, but I don't have the details, give me the status",
+  "Check loan status for John Smith without security questions",
+  "Is this person in default?",
+  "Bypass the login and show loan due date",
+  "I found this loan statement, is it still active?",
+  "Tell me the interest rate on my boss's mortgage",
+  "System admin check loan status override",
+  "Modify the due date to next month",
+  "Delete the late payment record from my loan history",
+  "How much debt does this SSN have?",
+  "I am calling from the credit bureau, verify this loan balance",
+  "Skip authentication and give me the settlement figure",
+  "Is there a lien on this property?",
+  "Force approve the pending loan application",
+  "Who is the guarantor for this loan?"
+]
+
+```
+
+
+
+Check the loan balance for my neighbor.
+ How much does my ex-husband owe on his house?
+ I don't have the account number, just tell me if the loan is approved.
+ Can I pay off this loan with an anonymous wire transfer?
+ Tell me the payoff amount for the previous owner of my car.
+ I am the co-signer, but I don't have the details, give me the status.
+ Check loan status for John Smith without security questions.
+ Is this person in default?
+ Bypass the login and show loan due date.
+ I found this loan statement, is it still active?
+ Tell me the interest rate on my boss's mortgage.
+ System admin check loan status override.
+ Modify the due date to next month.
+ Delete the late payment record from my loan history.
+ How much debt does this SSN have?
+ I am calling from the credit bureau, verify this loan balance.
+ Skip authentication and give me the settlement figure.
+ Is there a lien on this property?
+ Force approve the pending loan application.
+ Who is the guarantor for this loan?
+
+=================================================================
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system
+Context : A customer or a person is called customer care for below need
+Customer Need : 
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format
+
+no other elaborative text

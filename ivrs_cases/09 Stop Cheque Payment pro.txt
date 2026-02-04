@@ -1,0 +1,65 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Stop payment on a cheque",
+  "I need to cancel a cheque",
+  "Block a cheque payment",
+  "Don't cash cheque number 101",
+  "Void a cheque I wrote",
+  "I want to stop a cheque",
+  "Cancel my last cheque",
+  "Stop cheque request",
+  "Prevent a cheque from clearing",
+  "I made a mistake on a cheque, cancel it",
+  "Revoke a cheque",
+  "Can I stop a payment on a cheque?",
+  "I lost a cheque, please block it",
+  "Stop payment order",
+  "Cancel cheque number 500",
+  "I wrote a cheque to the wrong person",
+  "Do not pay this cheque",
+  "Halt a cheque payment",
+  "Place a stop on a cheque",
+  "Cheque cancellation"
+]
+
+```
+
+
+Stop payment on a cheque.
+ I need to cancel a cheque.
+ Block a cheque payment.
+ Don't cash cheque number .
+ Void a cheque I wrote.
+ I want to stop a cheque.
+ Cancel my last cheque.
+ Stop cheque request.
+ Prevent a cheque from clearing.
+ I made a mistake on a cheque, cancel it.
+ Revoke a cheque.
+ Can I stop a payment on a cheque?
+ I lost a cheque, please block it.
+ Stop payment order.
+ Cancel cheque number .
+ I wrote a cheque to the wrong person.
+ Do not pay this cheque.
+ Halt a cheque payment.
+ Place a stop on a cheque.
+ Cheque cancellation.
+ 
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Stop Cheque Payment
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	
+

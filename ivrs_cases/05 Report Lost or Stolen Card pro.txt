@@ -1,0 +1,61 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "I lost my card",
+  "My card was stolen",
+  "Report a lost credit card",
+  "Block my card immediately",
+  "I can't find my debit card",
+  "My wallet was stolen",
+  "Deactivate my card",
+  "Someone took my card",
+  "Report card theft",
+  "My card is missing",
+  "Cancel my card",
+  "I think I left my card at the store",
+  "Stop my card",
+  "I misplaced my credit card",
+  "Freeze my card",
+  "My purse was snatched",
+  "Report a stolen debit card",
+  "My card is gone",
+  "Emergency card block",
+  "Suspend my card services"
+]
+
+```
+I lost my card
+ My card was stolen
+ Report a lost credit card
+ Block my card immediately
+ I can't find my debit card
+ My wallet was stolen
+ Deactivate my card
+ Someone took my card
+ Report card theft
+ My card is missing
+ Cancel my card
+ I think I left my card at the store.
+ Stop my card.
+ I misplaced my credit card.
+ Freeze my card.
+ My purse was snatched.
+ Report a stolen debit card.
+ My card is gone.
+ Emergency card block.
+ Suspend my card services.
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Report Lost or Stolen Card
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

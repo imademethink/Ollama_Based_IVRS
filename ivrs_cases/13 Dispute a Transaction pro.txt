@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "I want to dispute a transaction",
+  "I did not make this purchase",
+  "There is an unauthorized charge",
+  "Report a fraudulent transaction",
+  "I don't recognize this charge",
+  "File a dispute",
+  "Contest a payment",
+  "I was charged twice",
+  "This amount is incorrect",
+  "Reverse this transaction",
+  "I need to report an error on my statement",
+  "Challenge a charge",
+  "Initiate a chargeback",
+  "Suspicious activity on my card",
+  "Wrong billing amount",
+  "Claim a refund for this transaction",
+  "Open a dispute",
+  "My bill has a mistake",
+  "Who is this merchant?",
+  "Transaction enquiry"
+]
+
+```
+
+1. I want to dispute a transaction
+2. I did not make this purchase
+3. There is an unauthorized charge
+4. Report a fraudulent transaction
+5. I don't recognize this charge
+6. File a dispute
+7. Contest a payment
+8. I was charged twice
+9. This amount is incorrect
+10. Reverse this transaction
+11. I need to report an error on my statement
+12. Challenge a charge
+13. Initiate a chargeback
+14. Suspicious activity on my card
+15. Wrong billing amount
+16. Claim a refund for this transaction
+17. Open a dispute
+18. My bill has a mistake
+19. Who is this merchant?
+20. Transaction enquiry
+
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Dispute a Transaction
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

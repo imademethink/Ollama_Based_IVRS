@@ -1,0 +1,8 @@
+numpy
+sentence_transformers
+pipwin
+vosk
+pyttsx3
+SpeechRecognition
+pydub
+pyaudio

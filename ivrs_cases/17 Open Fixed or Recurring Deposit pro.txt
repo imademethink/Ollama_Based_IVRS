@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "I want to open a fixed deposit",
+  "Start a recurring deposit",
+  "Open a certificate of deposit",
+  "I'd like to invest in a term deposit",
+  "Create a new FD account",
+  "Set up a monthly savings plan",
+  "Open a time deposit",
+  "I want to book a fixed deposit",
+  "Start an automatic savings deposit",
+  "Open a long term deposit account",
+  "I want to put money in a CD",
+  "Open a tax saver fixed deposit",
+  "Create a recurring deposit account",
+  "I want to open a savings certificate",
+  "Invest in a fixed income account",
+  "Open a 1 year fixed deposit",
+  "Start a systematic deposit plan",
+  "I need to open a term deposit",
+  "Open a high interest deposit account",
+  "Set up a recurring transfer to a deposit"
+]
+
+```
+
+1. I want to open a fixed deposit
+2. Start a recurring deposit
+3. Open a certificate of deposit
+4. I'd like to invest in a term deposit
+5. Create a new FD account
+6. Set up a monthly savings plan
+7. Open a time deposit
+8. I want to book a fixed deposit
+9. Start an automatic savings deposit
+10. Open a long term deposit account
+11. I want to put money in a CD
+12. Open a tax saver fixed deposit
+13. Create a recurring deposit account
+14. I want to open a savings certificate
+15. Invest in a fixed income account
+16. Open a 1 year fixed deposit
+17. Start a systematic deposit plan
+18. I need to open a term deposit
+19. Open a high interest deposit account
+20. Set up a recurring transfer to a deposit
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Open Fixed or Recurring Deposit
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	
+

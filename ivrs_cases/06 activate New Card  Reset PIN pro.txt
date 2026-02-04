@@ -1,0 +1,64 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Activate my new card",
+  "I want to reset my PIN",
+  "New card activation",
+  "Forgot my PIN number",
+  "Change my PIN",
+  "I received a new card in the mail",
+  "Set up a PIN for my card",
+  "Start using my new card",
+  "My PIN is blocked, help me reset it",
+  "Activate debit card",
+  "I need to create a PIN",
+  "Turn on my credit card",
+  "Reset my card password",
+  "Verify my new card",
+  "I want to change my ATM code",
+  "Register my new card",
+  "Card activation service",
+  "Update my PIN",
+  "How do I activate this card?",
+  "Initialize my card"
+]
+
+```
+
+
+Activate my new card.
+ I want to reset my PIN.
+ New card activation.
+ Forgot my PIN number.
+ Change my PIN.
+ I received a new card in the mail.
+ Set up a PIN for my card.
+ Start using my new card.
+ My PIN is blocked, help me reset it.
+ Activate debit card.
+ I need to create a PIN.
+ Turn on my credit card.
+ Reset my card password.
+ Verify my new card.
+ I want to change my ATM code.
+ Register my new card.
+ Card activation service.
+ Update my PIN.
+ How do I activate this card?
+ Initialize my card.
+
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Activate New Card / Reset PIN
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

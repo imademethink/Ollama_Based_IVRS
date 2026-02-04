@@ -1,0 +1,62 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Speak to a representative",
+  "I want to talk to a person",
+  "Customer service",
+  "Connect me to an agent",
+  "Human",
+  "Representative",
+  "Talk to someone",
+  "Live agent",
+  "Speak to support",
+  "I need help from a person",
+  "Operator",
+  "Connect to staff",
+  "Speak to a banker",
+  "Customer care executive",
+  "I want to speak to a human being",
+  "Get me a person",
+  "Talk to customer service",
+  "Agent please",
+  "Can I speak to someone?",
+  "Transfer me to an agent"
+]
+
+```
+
+1. Speak to a representative
+2. I want to talk to a person
+3. Customer service
+4. Connect me to an agent
+5. Human
+6. Representative
+7. Talk to someone
+8. Live agent
+9. Speak to support
+10. I need help from a person
+11. Operator
+12. Connect to staff
+13. Speak to a banker
+14. Customer care executive
+15. I want to speak to a human being
+16. Get me a person
+17. Talk to customer service
+18. Agent please
+19. Can I speak to someone?
+20. Transfer me to an agent
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Speak to Customer Support Agent
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

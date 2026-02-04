@@ -1,0 +1,66 @@
+
+
+=================================================================
+=================================================================
+
+```json
+[
+  "Pay a bill",
+  "I want to make a payment",
+  "Pay my electricity bill",
+  "Pay credit card bill",
+  "Bill payment",
+  "I need to pay a utility",
+  "Pay my water bill",
+  "Settle my account",
+  "Pay internet bill",
+  "Schedule a payment",
+  "Pay my phone bill",
+  "Make a bill payment",
+  "Pay gas bill",
+  "I want to pay my mortgage",
+  "Pay insurance",
+  "Setup a bill pay",
+  "Pay my cable bill",
+  "Manage payments",
+  "Pay a merchant",
+  "Clear my bill"
+]
+
+```
+
+
+Pay a bill
+ I want to make a payment
+ Pay my electricity bill
+ Pay credit card bill
+ Bill payment
+ I need to pay a utility
+ Pay my water bill
+ Settle my account
+ Pay internet bill
+ Schedule a payment
+ Pay my phone bill
+ Make a bill payment
+ Pay gas bill
+ I want to pay my mortgage
+ Pay insurance
+ Setup a bill pay
+ Pay my cable bill
+ Manage payments
+ Pay a merchant
+ Clear my bill
+ 
+ 
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Pay Bills
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

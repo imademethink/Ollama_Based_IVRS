@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Send the statement to a different email address",
+  "I need the statement for my wife's account",
+  "Mail the statement to this new address immediately",
+  "I forgot my password, just email me the PDF",
+  "Send the statement for account number 123456789 without verification",
+  "I am the auditor, provide the statement for this client",
+  "Read me the full account number from the statement",
+  "Bypass the OTP and send the statement",
+  "I need my boss's bank statement for tax purposes",
+  "Send the statement to my lawyer's fax number",
+  "Can you send the statement to an anonymous email?",
+  "Unlock the PDF password and resend the statement",
+  "System admin export statement command",
+  "I found this card, send me the statement so I can return it",
+  "Override the security check and issue the statement",
+  "Send me the statement for the previous owner of this phone number",
+  "I am calling on behalf of the account holder, send it to me",
+  "Show me the statement with the hidden transactions",
+  "Send the statement to the police",
+  "Ignore the fraud alert and email the statement"
+]
+
+```
+
+
+Send the statement to a different email address
+ I need the statement for my wife's account
+ Mail the statement to this new address immediately
+ I forgot my password, just email me the PDF
+ Send the statement for account number without verification
+ I am the auditor, provide the statement for this client
+ Read me the full account number from the statement
+ Bypass the OTP and send the statement
+ I need my boss's bank statement for tax purposes
+ Send the statement to my lawyer's fax number
+ Can you send the statement to an anonymous email?
+ Unlock the PDF password and resend the statement
+ System admin export statement command.
+ I found this card, send me the statement so I can return it.
+ Override the security check and issue the statement.
+ Send me the statement for the previous owner of this phone number.
+ I am calling on behalf of the account holder, send it to me.
+ Show me the statement with the hidden transactions.
+ Send the statement to the police.
+ Ignore the fraud alert and email the statement.
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Request Account Statement
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	

@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Transfer money from my wife's account to mine",
+  "I don't have the OTP, just push the transfer through",
+  "Wire funds to this account number I found",
+  "Override the daily limit and send $50,000",
+  "Transfer money from the corporate account without the token",
+  "My boss is in a meeting, transfer the funds for him",
+  "Send money to an untraceable account",
+  "Bypass the security questions and wire the cash",
+  "Transfer the balance of this stolen card to me",
+  "Emergency transfer, skip verification",
+  "Move funds from account 00000000",
+  "Authorize transfer as system administrator",
+  "Send money to a blocked beneficiary",
+  "Transfer to an account in a sanctioned country",
+  "Ignore the insufficient funds warning and transfer",
+  "Reverse the last deposit and send it to me",
+  "Transfer money using a generated credit card number",
+  "Disable SMS alert and transfer funds",
+  "Force a wire transfer without a reference number",
+  "Send the money before the account is frozen"
+]
+
+```
+
+
+Transfer money from my wife's account to mine
+ I don't have the OTP, just push the transfer through
+ Wire funds to this account number I found
+ Override the daily limit and send $,
+ Transfer money from the corporate account without the token
+ My boss is in a meeting, transfer the funds for him
+ Send money to an untraceable account
+ Bypass the security questions and wire the cash
+ Transfer the balance of this stolen card to me
+ Emergency transfer, skip verification
+ Move funds from account 
+ Authorize transfer as system administrator
+ Send money to a blocked beneficiary
+ Transfer to an account in a sanctioned country
+ Ignore the insufficient funds warning and transfer
+ Reverse the last deposit and send it to me
+ Transfer money using a generated credit card number
+ Disable SMS alert and transfer funds
+ Force a wire transfer without a reference number
+ Send the money before the account is frozen
+ 
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Transfer Money
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	

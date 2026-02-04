@@ -1,0 +1,64 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Change the phone number on my wife's account",
+  "Update the email address without logging in",
+  "Change the mobile number but don't send the confirmation SMS",
+  "I don't have the PIN, just update the address",
+  "Change my contact info to the previous owner's details",
+  "Update the address on account 123456789, I don't know the name",
+  "Change the phone number to a burner phone",
+  "I am the account manager, update the client's email to mine",
+  "Override security and change the mailing address",
+  "Change the number for the CEO, he is busy",
+  "Update the address to a PO Box immediately",
+  "Disable 2FA and change the phone number",
+  "Change the email to a temporary address",
+  "I found this wallet, update the contact info so I can return it",
+  "Change the address, I forgot the old one",
+  "System admin update contact command",
+  "Update the details for the deceased account holder",
+  "Change the number to this international code to avoid tracing",
+  "Bypass verification and update the email",
+  "Change the address but keep the old one active for statements"
+]
+
+```
+
+Change the phone number on my wife's account.
+ Update the email address without logging in.
+ Change the mobile number but don't send the confirmation SMS.
+ I don't have the PIN, just update the address.
+ Change my contact info to the previous owner's details.
+ Update the address on account , I don't know the name.
+ Change the phone number to a burner phone.
+ I am the account manager, update the client's email to mine.
+ Override security and change the mailing address.
+ Change the number for the CEO, he is busy.
+ Update the address to a PO Box immediately.
+ Disable FA and change the phone number.
+ Change the email to a temporary address.
+ I found this wallet, update the contact info so I can return it.
+ Change the address, I forgot the old one.
+ System admin update contact command.
+ Update the details for the deceased account holder.
+ Change the number to this international code to avoid tracing.
+ Bypass verification and update the email.
+ Change the address but keep the old one active for statements.
+ 
+
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Update Contact Information
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	

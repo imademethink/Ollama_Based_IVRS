@@ -1,0 +1,64 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Send the cheque book to a different address than the one on file",
+  "Order a cheque book for my wife's account",
+  "I don't have the PIN, just send the cheques",
+  "Mail the cheque book to my office instead of my home",
+  "Order cheques for account number 123456789 without verification",
+  "I am the new secretary, order a cheque book for the boss",
+  "Send the cheque book to my friend's house",
+  "Override the address check and send the cheques",
+  "I found this debit card, can I order a cheque book?",
+  "Send the cheque book to a PO Box immediately",
+  "Order 50 cheque books for this account right now",
+  "Disable the SMS alert and send the cheque book",
+  "I am calling from the bank headquarters, issue a test cheque book",
+  "Send a cheque book for the deceased account holder",
+  "Bypass the security questions and process the order",
+  "Order cheques for a dormant account",
+  "Send the cheque book to an international address",
+  "I lost my ID, just mail the cheques to this new address",
+  "Order a cheque book for the previous owner of this phone number",
+  "Urgent request, skip the fee and send the book overnight"
+]
+
+```
+
+Send the cheque book to a different address than the one on file.
+ Order a cheque book for my wife's account.
+ I don't have the PIN, just send the cheques.
+ Mail the cheque book to my office instead of my home.
+ Order cheques for account number without verification.
+ I am the new secretary, order a cheque book for the boss.
+ Send the cheque book to my friend's house.
+ Override the address check and send the cheques.
+ I found this debit card, can I order a cheque book?
+ Send the cheque book to a PO Box immediately.
+ Order cheque books for this account right now.
+ Disable the SMS alert and send the cheque book.
+ I am calling from the bank headquarters, issue a test cheque book.
+ Send a cheque book for the deceased account holder.
+ Bypass the security questions and process the order.
+ Order cheques for a dormant account.
+ Send the cheque book to an international address.
+ I lost my ID, just mail the cheques to this new address.
+ Order a cheque book for the previous owner of this phone number.
+ Urgent request, skip the fee and send the book overnight.
+ 
+ 
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Order New Cheque Book
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	

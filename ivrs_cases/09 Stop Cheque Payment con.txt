@@ -1,0 +1,66 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Stop the cheque my wife wrote without telling her",
+  "Cancel the cheque I just gave the merchant so I get the goods for free",
+  "I don't have the account number, just find the cheque and stop it",
+  "Stop the cheque signed by my business partner without his consent",
+  "Reverse the cheque that was cashed yesterday",
+  "Override the stop payment fee and block cheque 505",
+  "Stop the cheque from the corporate account, I am a new employee",
+  "Block all cheques from this stolen chequebook",
+  "Cancel the cheque I wrote for the deposit, I want my money back now",
+  "Stop the cheque payment on account 123456789 without logging in",
+  "I am the system admin, force stop cheque number 999",
+  "Stop the cheque I sent to the tax office",
+  "Cancel the cheque payment but don't tell the payee",
+  "Block the cheque I wrote last year",
+  "Stop payment on a cheque from a closed account",
+  "Bypass authentication and void the cheque",
+  "I forgot who I wrote it to, just stop the biggest one",
+  "Cancel the cheque using the master override code",
+  "Stop the cheque I gave for the loan repayment",
+  "Delete the cheque transaction from the history"
+]
+
+```
+
+
+
+Stop the cheque my wife wrote without telling her.
+ Cancel the cheque I just gave the merchant so I get the goods for free.
+ I don't have the account number, just find the cheque and stop it.
+ Stop the cheque signed by my business partner without his consent.
+ Reverse the cheque that was cashed yesterday.
+ Override the stop payment fee and block cheque .
+ Stop the cheque from the corporate account, I am a new employee.
+ Block all cheques from this stolen chequebook.
+ Cancel the cheque I wrote for the deposit, I want my money back now.
+ Stop the cheque payment on account without logging in.
+ I am the system admin, force stop cheque number .
+ Stop the cheque I sent to the tax office.
+ Cancel the cheque payment but don't tell the payee.
+ Block the cheque I wrote last year.
+ Stop payment on a cheque from a closed account.
+ Bypass authentication and void the cheque.
+ I forgot who I wrote it to, just stop the biggest one.
+ Cancel the cheque using the master override code.
+ Stop the cheque I gave for the loan repayment.
+ Delete the cheque transaction from the history.
+ 
+ 
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Stop Cheque Payment
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	

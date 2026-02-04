@@ -1,0 +1,64 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "I want to schedule an appointment",
+  "Book a meeting at a branch",
+  "Make an appointment with a banker",
+  "Schedule a visit",
+  "I need to see someone at the bank",
+  "Set up a time to come in",
+  "Reserve a slot at the branch",
+  "Appointment for a loan application",
+  "Can I book an appointment?",
+  "I'd like to meet a financial advisor",
+  "Schedule a consultation",
+  "Book a branch visit",
+  "I want to make a reservation",
+  "Arrange a meeting",
+  "When is the next available appointment?",
+  "I need an in-person appointment",
+  "Schedule a time with a mortgage specialist",
+  "Make a booking",
+  "Branch meeting request",
+  "I want to talk to a manager in person"
+]
+
+```
+
+1. I want to schedule an appointment
+2. Book a meeting at a branch
+3. Make an appointment with a banker
+4. Schedule a visit
+5. I need to see someone at the bank
+6. Set up a time to come in
+7. Reserve a slot at the branch
+8. Appointment for a loan application
+9. Can I book an appointment?
+10. I'd like to meet a financial advisor
+11. Schedule a consultation
+12. Book a branch visit
+13. I want to make a reservation
+14. Arrange a meeting
+15. When is the next available appointment?
+16. I need an in-person appointment
+17. Schedule a time with a mortgage specialist
+18. Make a booking
+19. Branch meeting request
+20. I want to talk to a manager in person
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Schedule Branch Appointment
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	
+	
+

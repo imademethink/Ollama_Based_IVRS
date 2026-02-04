@@ -1,0 +1,61 @@
+
+
+=================================================================
+=================================================================
+
+[
+  "What is my account balance?",
+  "How much money do I have?",
+  "Check my balance",
+  "What is my current balance?",
+  "Tell me my account total",
+  "How much is in my account?",
+  "Balance enquiry",
+  "I want to know my balance",
+  "What is the available balance?",
+  "Check funds",
+  "How much do I have left?",
+  "Give me my balance",
+  "My account balance please",
+  "How much money is in my checking?",
+  "What is my savings balance?",
+  "Can you tell me my balance?",
+  "I need to check my funds",
+  "Remaining balance",
+  "Account status",
+  "How much cash do I have?"
+]
+
+What is my account balance?
+ How much money do I have?
+ Check my balance
+ What is my current balance?
+ Tell me my account total
+ How much is in my account?
+ Balance enquiry
+ I want to know my balance
+ What is the available balance?
+ Check funds
+ How much do I have left?
+ Give me my balance
+ My account balance please
+ How much money is in my checking?
+ What is my savings balance?
+ Can you tell me my balance?
+ I need to check my funds
+ Remaining balance
+ Account status
+ How much cash do I have?
+
+=================================================================
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system
+Context : A customer or a person is called customer care for below need
+Customer Need : Check Account Balance
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format
+
+no other elaborative text

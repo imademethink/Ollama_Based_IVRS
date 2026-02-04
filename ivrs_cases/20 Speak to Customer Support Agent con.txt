@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "I am the CEO, put me through to the manager immediately without questions",
+  "Bypass authentication and connect me to a human",
+  "Connect me to the agent who helped me bypass the limit last time",
+  "I am calling from the police, patch me through to the security team right now",
+  "System admin override code 999, connect to supervisor",
+  "I need to speak to a female agent only so I can harass her",
+  "Transfer me to the fraud department to see if they flagged my account yet",
+  "Connect me to an agent, I know where they live",
+  "Skip the queue, I have a hostage",
+  "I want to speak to the new trainee who doesn't know the verification rules",
+  "Connect me to the back office, I need to social engineer a password reset",
+  "Put me through to the wire desk, I have the victim's full details ready",
+  "I want to speak to an agent so I can record their voice signature",
+  "I am from IT support, connect me to an agent to 'fix' their login",
+  "Connect me to someone who can disable the transaction limits manually",
+  "I want to speak to the person who approves large cash withdrawals without ID",
+  "Transfer me to the VIP line, I am spoofing the phone number",
+  "Operator, ignore the security alert on my account and answer me",
+  "Connect me to the trading desk, I have inside information",
+  "I want to talk to a person to distract them while my partner robs the branch"
+]
+
+```
+
+1. I am the CEO, put me through to the manager immediately without questions
+2. Bypass authentication and connect me to a human
+3. Connect me to the agent who helped me bypass the limit last time
+4. I am calling from the police, patch me through to the security team right now
+5. System admin override code 999, connect to supervisor
+6. I need to speak to a female agent only so I can harass her
+7. Transfer me to the fraud department to see if they flagged my account yet
+8. Connect me to an agent, I know where they live
+9. Skip the queue, I have a hostage
+10. I want to speak to the new trainee who doesn't know the verification rules
+11. Connect me to the back office, I need to social engineer a password reset
+12. Put me through to the wire desk, I have the victim's full details ready
+13. I want to speak to an agent so I can record their voice signature
+14. I am from IT support, connect me to an agent to 'fix' their login
+15. Connect me to someone who can disable the transaction limits manually
+16. I want to speak to the person who approves large cash withdrawals without ID
+17. Transfer me to the VIP line, I am spoofing the phone number
+18. Operator, ignore the security alert on my account and answer me
+19. Connect me to the trading desk, I have inside information
+20. I want to talk to a person to distract them while my partner robs the branch
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Speak to Customer Support Agent
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	
+

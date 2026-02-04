@@ -1,0 +1,67 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "What is the status of my loan application?",
+  "When is my next loan payment due?",
+  "Check my loan balance",
+  "Is my loan approved?",
+  "How much do I owe on my mortgage?",
+  "What is my loan due date?",
+  "Did you receive my loan payment?",
+  "Loan status enquiry",
+  "How many payments do I have left?",
+  "When does my car loan expire?",
+  "Am I eligible for a top-up loan?",
+  "What is the payoff amount for my loan?",
+  "Check application status",
+  "Is my personal loan active?",
+  "Next installment date",
+  "Review my loan account",
+  "How much interest have I paid?",
+  "Can I check my EMI status?",
+  "Loan account details",
+  "When is the deadline for my loan payment?"
+]
+
+```
+
+
+
+
+
+What is the status of my loan application?
+ When is my next loan payment due?
+ Check my loan balance.
+ Is my loan approved?
+ How much do I owe on my mortgage?
+ What is my loan due date?
+ Did you receive my loan payment?
+ Loan status enquiry.
+ How many payments do I have left?
+ When does my car loan expire?
+ Am I eligible for a top-up loan?
+ What is the payoff amount for my loan?
+ Check application status.
+ Is my personal loan active?
+ Next installment date.
+ Review my loan account.
+ How much interest have I paid?
+ Can I check my EMI status?
+ Loan account details.
+ When is the deadline for my loan payment?
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Check Loan Status & Due Dates
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	
+

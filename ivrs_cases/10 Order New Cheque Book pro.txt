@@ -1,0 +1,66 @@
+
+
+=================================================================
+=================================================================
+
+```json
+[
+  "Order a new cheque book",
+  "I need more cheques",
+  "Request a cheque book",
+  "Send me a new cheque book",
+  "I want to order cheques",
+  "Cheque book request",
+  "Can I get a new cheque book?",
+  "Reorder cheques",
+  "I ran out of cheques",
+  "Issue a new cheque book",
+  "My cheque book is finished",
+  "Send a cheque book to my home",
+  "Apply for a new cheque book",
+  "I need a new book of cheques",
+  "Get a replacement cheque book",
+  "How do I get more cheques?",
+  "Order a 25 leaf cheque book",
+  "Mail me a new cheque book",
+  "Cheque book refill",
+  "I would like to request a cheque book"
+]
+
+```
+
+
+
+Order a new cheque book.
+ I need more cheques.
+ Request a cheque book.
+ Send me a new cheque book.
+ I want to order cheques.
+ Cheque book request.
+ Can I get a new cheque book?
+ Reorder cheques.
+ I ran out of cheques.
+ Issue a new cheque book.
+ My cheque book is finished.
+ Send a cheque book to my home.
+ Apply for a new cheque book.
+ I need a new book of cheques.
+ Get a replacement cheque book.
+ How do I get more cheques?
+ Order a leaf cheque book.
+ Mail me a new cheque book.
+ Cheque book refill.
+ I would like to request a cheque book.
+
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Order New Cheque Book
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

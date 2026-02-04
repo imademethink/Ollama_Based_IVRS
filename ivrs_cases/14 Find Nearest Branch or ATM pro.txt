@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Where is the nearest branch?",
+  "Find an ATM near me",
+  "I need to withdraw cash",
+  "Location of the closest bank",
+  "Branch locator",
+  "Is there a bank open near me?",
+  "ATM locations",
+  "Directions to the closest branch",
+  "Where can I deposit a check in person?",
+  "Find a branch in my city",
+  "Nearest cash point",
+  "Bank hours and location",
+  "Is there a drive-thru ATM nearby?",
+  "I need to see a teller",
+  "List branches near my current location",
+  "Where is the closest ATM?",
+  "Locate bank",
+  "Address of the local branch",
+  "Are there any ATMs in this area?",
+  "Find nearest banking center"
+]
+
+```
+
+1. Where is the nearest branch?
+2. Find an ATM near me
+3. I need to withdraw cash
+4. Location of the closest bank
+5. Branch locator
+6. Is there a bank open near me?
+7. ATM locations
+8. Directions to the closest branch
+9. Where can I deposit a check in person?
+10. Find a branch in my city
+11. Nearest cash point
+12. Bank hours and location
+13. Is there a drive-thru ATM nearby?
+14. I need to see a teller
+15. List branches near my current location
+16. Where is the closest ATM?
+17. Locate bank
+18. Address of the local branch
+19. Are there any ATMs in this area?
+20. Find nearest banking center
+
+=================================================================
+
+Role : You are an IVRS system design expert
+Experience : more than 10 years
+Domain : It is for a Bank which offers many services
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information
+Main Expectation : With the help of AI models, need to design an IVRS system
+Context : A customer or a person is called customer care for below need
+Customer Need : Find Nearest Branch or ATM
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format
+
+no other elaborative text

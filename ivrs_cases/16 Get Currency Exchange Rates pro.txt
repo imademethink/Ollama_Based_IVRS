@@ -1,0 +1,62 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "What is the current exchange rate?",
+  "Currency exchange rates",
+  "How much is the Dollar to Euro today?",
+  "Check forex rates",
+  "I want to buy foreign currency",
+  "Exchange rate enquiry",
+  "What is the rate for British Pounds?",
+  "Convert USD to Canadian Dollars",
+  "Today's currency rates",
+  "How much is 100 Euros worth?",
+  "Foreign exchange inquiry",
+  "Buying rate for Yen",
+  "Selling rate for Mexican Pesos",
+  "Check FX rates",
+  "International exchange rates",
+  "I need to exchange money",
+  "What is the conversion rate?",
+  "Rate for sending money abroad",
+  "Currency converter",
+  "Latest forex rates"
+]
+
+```
+
+1. What is the current exchange rate?
+2. Currency exchange rates
+3. How much is the Dollar to Euro today?
+4. Check forex rates
+5. I want to buy foreign currency
+6. Exchange rate enquiry
+7. What is the rate for British Pounds?
+8. Convert USD to Canadian Dollars
+9. Today's currency rates
+10. How much is 100 Euros worth?
+11. Foreign exchange inquiry
+12. Buying rate for Yen
+13. Selling rate for Mexican Pesos
+14. Check FX rates
+15. International exchange rates
+16. I need to exchange money
+17. What is the conversion rate?
+18. Rate for sending money abroad
+19. Currency converter
+20. Latest forex rates
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Get Currency Exchange Rates
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

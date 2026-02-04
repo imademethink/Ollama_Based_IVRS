@@ -1,0 +1,61 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "What are my recent transactions?",
+  "Show me my last 5 purchases",
+  "Check recent activity",
+  "Did my payment go through?",
+  "What was the last charge on my account?",
+  "Read my statement for this month",
+  "Any recent charges?",
+  "Where did I spend money yesterday?",
+  "List my latest debit card usage",
+  "Did I get charged by Amazon?",
+  "Review my spending history",
+  "What transactions happened today?",
+  "I want to see where my money went",
+  "Tell me my last few withdrawals",
+  "Check for unauthorized charges",
+  "Transaction history please",
+  "What are the pending transactions?",
+  "Go over my recent account activity",
+  "Did the check clear?",
+  "Last ten entries in my passbook"
+]
+
+```
+What are my recent transactions?
+ Show me my last purchases
+ Check recent activity
+ Did my payment go through?
+ What was the last charge on my account?
+ Read my statement for this month
+ Any recent charges?
+ Where did I spend money yesterday?
+ List my latest debit card usage
+ Did I get charged by Amazon?
+ Review my spending history
+ What transactions happened today?
+ I want to see where my money went
+ Tell me my last few withdrawals
+ Check for unauthorized charges
+ Transaction history please
+ What are the pending transactions?
+ Go over my recent account activity
+ Did the check clear?
+ Last ten entries in my passbook
+
+=================================================================
+Role : You are an IVRS system design expert		
+Experience : more than 10 years		
+Domain : It is for a Bank which offers many services		
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information		
+Main Expectation : With the help of AI models, need to design an IVRS system		
+Context : A customer or a person is called customer care for below need		
+Customer Need : 	Review Recent Transactions	
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format		
+		
+no other elaborative text		

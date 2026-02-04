@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Transfer money",
+  "I want to send funds",
+  "Move money from savings to checking",
+  "Transfer $100 to Mom",
+  "Make a wire transfer",
+  "Send payment to another bank",
+  "Initiate a fund transfer",
+  "Transfer to account number ending in 1234",
+  "Send cash to a friend",
+  "Move funds between accounts",
+  "International money transfer",
+  "I need to pay someone",
+  "Transfer money to external account",
+  "Send money via Zelle",
+  "Transfer from checking",
+  "Wire money",
+  "Make a payment to John",
+  "Transfer funds now",
+  "Send money overseas",
+  "Can I move money?"
+]
+
+```
+
+Transfer money
+ I want to send funds
+ Move money from savings to checking
+ Transfer $ to Mom
+ Make a wire transfer
+ Send payment to another bank
+ Initiate a fund transfer
+ Transfer to account number ending in 
+ Send cash to a friend
+ Move funds between accounts
+ International money transfer
+ I need to pay someone
+ Transfer money to external account
+ Send money via Zelle
+ Transfer from checking
+ Wire money
+ Make a payment to John
+ Transfer funds now
+ Send money overseas
+ Can I move money?
+
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Transfer Money
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

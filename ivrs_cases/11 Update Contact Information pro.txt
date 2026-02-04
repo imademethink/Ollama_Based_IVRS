@@ -1,0 +1,67 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Update my contact information",
+  "Change my phone number",
+  "I have a new address",
+  "Update my email address",
+  "Change contact details",
+  "I moved to a new house",
+  "Edit my personal information",
+  "Update my mobile number",
+  "Change my mailing address",
+  "My phone number has changed",
+  "Update my profile details",
+  "Register a new phone number",
+  "Correct my contact info",
+  "I need to change my address",
+  "Update my contact records",
+  "Add a new email to my account",
+  "Modify my contact details",
+  "Change where my statements are sent",
+  "Update my home address",
+  "My contact info is outdated"
+]
+
+```
+
+
+Update my contact information.
+ Change my phone number.
+ I have a new address.
+ Update my email address.
+ Change contact details.
+ I moved to a new house.
+ Edit my personal information.
+ Update my mobile number.
+ Change my mailing address.
+ My phone number has changed.
+ Update my profile details.
+ Register a new phone number.
+ Correct my contact info.
+ I need to change my address.
+ Update my contact records.
+ Add a new email to my account.
+ Modify my contact details.
+ Change where my statements are sent.
+ Update my home address.
+ My contact info is outdated.
+
+
+
+
+=================================================================
+
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Update Contact Information
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	

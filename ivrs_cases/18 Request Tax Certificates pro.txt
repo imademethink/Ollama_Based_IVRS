@@ -1,0 +1,64 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Send me my tax certificate",
+  "I need my interest statement for taxes",
+  "Request Form 1099",
+  "Get my tax documents",
+  "I want my annual tax summary",
+  "Certificate of interest paid",
+  "Send tax statement to email",
+  "I need a copy of my tax forms",
+  "Download tax certificate",
+  "Mortgage interest statement",
+  "Year-end tax documents",
+  "Tax deduction certificate",
+  "Proof of interest income",
+  "Generate tax statement",
+  "I need my banking tax papers",
+  "Request fiscal certificate",
+  "Where are my tax forms?",
+  "Send 1098 form",
+  "Income tax certificate request",
+  "Mail me my tax certificate"
+]
+
+```
+
+1. Send me my tax certificate
+2. I need my interest statement for taxes
+3. Request Form 1099
+4. Get my tax documents
+5. I want my annual tax summary
+6. Certificate of interest paid
+7. Send tax statement to email
+8. I need a copy of my tax forms
+9. Download tax certificate
+10. Mortgage interest statement
+11. Year-end tax documents
+12. Tax deduction certificate
+13. Proof of interest income
+14. Generate tax statement
+15. I need my banking tax papers
+16. Request fiscal certificate
+17. Where are my tax forms?
+18. Send 1098 form
+19. Income tax certificate request
+20. Mail me my tax certificate
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Request Tax Certificates
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] in json array format as well as a simple list format	
+	
+no other elaborative text	
+	
+

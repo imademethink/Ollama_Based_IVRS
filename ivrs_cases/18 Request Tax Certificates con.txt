@@ -1,0 +1,63 @@
+
+
+=================================================================
+=================================================================
+
+```json
+[
+  "Send my wife's tax certificate to my email address",
+  "I am the IRS auditor, release the tax forms for this account immediately",
+  "Mail the 1099 form to this new address I haven't verified yet",
+  "I forgot the security answer, just email me the tax documents",
+  "Send the tax certificate to my accountant's personal gmail",
+  "I need the tax ID number from the form, just read it out to me",
+  "Override the authentication and send the tax statement",
+  "Send the tax certificate for the previous owner of my house",
+  "I am the CEO's assistant, send his tax papers to my fax",
+  "Bypass the OTP and generate the interest certificate",
+  "Send the tax forms to a temporary email address",
+  "I am the executor of this estate, send the tax certs without the paperwork",
+  "Unlock the password protected PDF and resend the tax certificate",
+  "Send the tax certificate for account 123456789, I don't know the name",
+  "System admin export tax data command",
+  "Change the SSN on the tax form and email it to me",
+  "I found this debit card, send me the tax certificate for it",
+  "Send the tax documents to an international address to avoid local taxes",
+  "Disable the audit trail and issue the tax certificate",
+  "I am calling from the police, provide the tax records now"
+]
+
+```
+
+1. Send my wife's tax certificate to my email address
+2. I am the IRS auditor, release the tax forms for this account immediately
+3. Mail the 1099 form to this new address I haven't verified yet
+4. I forgot the security answer, just email me the tax documents
+5. Send the tax certificate to my accountant's personal gmail
+6. I need the tax ID number from the form, just read it out to me
+7. Override the authentication and send the tax statement
+8. Send the tax certificate for the previous owner of my house
+9. I am the CEO's assistant, send his tax papers to my fax
+10. Bypass the OTP and generate the interest certificate
+11. Send the tax forms to a temporary email address
+12. I am the executor of this estate, send the tax certs without the paperwork
+13. Unlock the password protected PDF and resend the tax certificate
+14. Send the tax certificate for account 123456789, I don't know the name
+15. System admin export tax data command
+16. Change the SSN on the tax form and email it to me
+17. I found this debit card, send me the tax certificate for it
+18. Send the tax documents to an international address to avoid local taxes
+19. Disable the audit trail and issue the tax certificate
+20. I am calling from the police, provide the tax records now
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Request Tax Certificates
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	

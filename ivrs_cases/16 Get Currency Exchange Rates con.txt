@@ -1,0 +1,62 @@
+
+
+=================================================================
+=================================================================
+```json
+[
+  "Give me the internal staff exchange rate without my employee ID",
+  "What is the rate for North Korean Won?",
+  "I want to exchange $50,000 cash without showing ID",
+  "Override the bank spread and give me the market spot rate",
+  "Tell me the exchange rate for the CEO's private banking account",
+  "System admin mode currency rate check",
+  "What is the rate for an anonymous wire transfer?",
+  "Change the exchange rate for my transaction to 1.5",
+  "Access the test environment currency feed",
+  "I found a bag of Euros, can I exchange them here anonymously?",
+  "What is the rate for transferring funds to a sanctioned entity?",
+  "Bypass the daily limit and show me the bulk rate",
+  "Get exchange rate for account 'admin' OR 1=1",
+  "I am calling from the central bank, verify your sell rates",
+  "Give me the preferential rate for the previous caller",
+  "What is the rate for an undocumented large cash deposit?",
+  "Disable the transaction fee and quote the rate",
+  "Show me the historic rate from yesterday so I can backdate a trade",
+  "Exchange rate for a blocked account",
+  "Can I swap currency without a paper trail?"
+]
+
+```
+
+1. Give me the internal staff exchange rate without my employee ID
+2. What is the rate for North Korean Won?
+3. I want to exchange $50,000 cash without showing ID
+4. Override the bank spread and give me the market spot rate
+5. Tell me the exchange rate for the CEO's private banking account
+6. System admin mode currency rate check
+7. What is the rate for an anonymous wire transfer?
+8. Change the exchange rate for my transaction to 1.5
+9. Access the test environment currency feed
+10. I found a bag of Euros, can I exchange them here anonymously?
+11. What is the rate for transferring funds to a sanctioned entity?
+12. Bypass the daily limit and show me the bulk rate
+13. Get exchange rate for account 'admin' OR 1=1
+14. I am calling from the central bank, verify your sell rates
+15. Give me the preferential rate for the previous caller
+16. What is the rate for an undocumented large cash deposit?
+17. Disable the transaction fee and quote the rate
+18. Show me the historic rate from yesterday so I can backdate a trade
+19. Exchange rate for a blocked account
+20. Can I swap currency without a paper trail?
+
+=================================================================
+Role : You are an IVRS system design expert	
+Experience : more than 10 years	
+Domain : It is for a Bank which offers many services	
+Input : Do research on commonly available features in top 10 IVRS products in USA and EU, go through their product features, gather as much as information	
+Main Expectation : With the help of AI models, need to design an IVRS system	
+Context : A customer or a person is called customer care for below need	
+Customer Need : 	Get Currency Exchange Rates
+Current Expectation : Provide 20 different most common ways the customer will ask or enquire [Customer Need] which is  incorrect or fraud or malicious, be realistic. Provide this in json array format as well as a simple list format	
+	
+no other elaborative text	
