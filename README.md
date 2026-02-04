@@ -1,6 +1,6 @@
 # Ollama Unleashed: Ollama based Next-Gen Secure IVRS powered by Ollama, RAG, Sentiment analysis, Guardrails
 
-# YouTube video link : https://youtu.be/_aMUL1xTc9o
+# YouTube video link : https://youtu.be/NMJUvWiH8gc
 
 <img width="1536" height="1024" alt="Thumbnail" src="https://github.com/user-attachments/assets/892fb6a6-9665-4759-96c9-de777b3556a6" />
 
