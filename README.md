@@ -122,6 +122,12 @@ python ivrs1_dev.py
 
 python ivrs2_qa.py
 
+# What makes it stand out?
+
+This IVRS addresses 15 Guardrails, and 20 x 4 = 80 User sentiments which are practical use cases (say 70% of overall banking IVRS)
+
+# Tech Stack:
+
+Ollama, Python, RAG
+
 # Note : Strictly use Python 3.11 version 
-
-
